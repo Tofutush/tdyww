@@ -23,6 +23,10 @@
 	--box-dark: #3e3e3e;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		--c: var(--c-dark);
@@ -122,8 +126,8 @@ footer {
 
 #toc {
 	position: fixed;
-	right: 1em;
-	bottom: 2em;
+	right: 0;
+	bottom: 0;
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: flex-end;
@@ -131,6 +135,7 @@ footer {
 	height: 80%;
 	width: 24em;
 	max-width: 100%;
+	padding: 2em 1em;
 
 	#toc-toggle {
 		display: none;
