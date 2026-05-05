@@ -1,0 +1,27 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder == "角色"
+        - file.name != "index"
+    order:
+      - file.name
+      - 全名
+      - 昵称
+      - 英文名
+      - 灵魂
+      - 生日
+      - 忌日
+      - 国籍
+      - 超能力
+    sort: []
+    columnSize:
+      file.name: 72
+      note.全名: 71
+      note.昵称: 82
+      note.灵魂: 111
+      note.生日: 98
+      note.忌日: 100
+      note.国籍: 91
+      note.超能力: 116

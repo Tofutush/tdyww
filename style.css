@@ -1,0 +1,121 @@
+@font-face {
+	font-family: lxgw;
+	src: local(霞鹜文楷), url(/tdyww/fonts/LXGWWenKai-Regular.ttf);
+}
+
+@font-face {
+	font-family: lxgw-marker;
+	src: local(霞鹜漫黑), url(/tdyww/fonts/LXGWMarkerGothic-Regular.ttf);
+}
+
+:root {
+	--font-size: clamp(1rem, 0.8929rem + 0.5357vw, 1.375rem);
+	--font-size-h1: calc(var(--font-size) * 1.8);
+	--font-size-h2: calc(var(--font-size) * 1.6);
+	--font-size-h3: calc(var(--font-size) * 1.3);
+	--font-size-h4: calc(var(--font-size) * 1.2);
+	--font-size-small: calc(var(--font-size) * 0.8);
+	--off-black: #222;
+	--off-white: #eee;
+	--c-light: #555;
+	--box-light: #dbdbdb;
+	--c-dark: #aaa;
+	--box-dark: #3e3e3e;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		--c: var(--c-dark);
+		--box: var(--box-dark);
+		--text: var(--off-white);
+		--bg: var(--off-black);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		--c: var(--c-light);
+		--box: var(--box-light);
+		--text: var(--off-black);
+		--bg: var(--off-white);
+	}
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--text);
+	font-size: var(--font-size);
+	font-family: lxgw;
+	line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: var(--text);
+	line-height: 2;
+	font-family: lxgw-marker;
+	margin-bottom: .5em;
+	margin-top: 1em;
+}
+
+h1 {
+	font-size: var(--font-size-h1);
+}
+
+h2 {
+	font-size: var(--font-size-h2);
+}
+
+h3 {
+	font-size: var(--font-size-h3);
+}
+
+h4 {
+	font-size: var(--font-size-h4);
+}
+
+a,
+a:visited {
+	color: inherit;
+	text-decoration: underline;
+	text-decoration-color: var(--c);
+	text-decoration-thickness: .2em;
+	text-underline-offset: .3em;
+	text-decoration-skip-ink: none;
+	transition: all .2s;
+
+	&:hover {
+		color: var(--c);
+		text-underline-offset: .2em;
+	}
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0 1em;
+
+	nav {
+		display: flex;
+		gap: 1em;
+		flex-wrap: wrap;
+	}
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+footer {
+	text-align: center;
+	padding: 1em 0;
+}

@@ -1,0 +1,340 @@
+{
+  "main": {
+    "id": "99f9656059578ad5",
+    "type": "split",
+    "children": [
+      {
+        "id": "09e1309ade362055",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ae43f3543dcd7e3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "a256f29e49d1f86f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "更新日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "更新日志"
+            }
+          },
+          {
+            "id": "f872c34170294e7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "世界观/伟思德维亚.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "伟思德维亚"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63829b6e2ead87fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a097b9a94fbf8dd",
+        "type": "tabs",
+        "dimension": 56.43564356435643,
+        "children": [
+          {
+            "id": "d35e8f1ca5943f56",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2f61e59bdc2b4ead",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "更新日志.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 更新日志"
+            }
+          },
+          {
+            "id": "eaac0eac42d08308",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "参考图",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ff7ec5c0d01bdac3",
+        "type": "tabs",
+        "dimension": 43.56435643564357,
+        "children": [
+          {
+            "id": "bf265a235ee5c57e",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "世界观/伟思德维亚.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "-file:index -file:更新日志",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "path:故事  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15035247
+                      }
+                    },
+                    {
+                      "query": "path:角色  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16777215
+                      }
+                    },
+                    {
+                      "query": "path:世界观/紫荆国  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 15735502
+                      }
+                    },
+                    {
+                      "query": "path:世界观/范顿  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11670226
+                      }
+                    },
+                    {
+                      "query": "path:世界观/亚特莱西亚  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 619034
+                      }
+                    },
+                    {
+                      "query": "path:世界观/伟思德维亚  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 13997352
+                      }
+                    },
+                    {
+                      "query": "path:世界观/莫尔兰  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 1481094
+                      }
+                    },
+                    {
+                      "query": "path:世界观/希尔万迪亚  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 2194918
+                      }
+                    },
+                    {
+                      "query": "path:世界观  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16767144
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9227251634237982,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 伟思德维亚"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5
+  },
+  "right": {
+    "id": "91b1dcc85eef3d99",
+    "type": "split",
+    "children": [
+      {
+        "id": "21056af092f45d7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3dd3e04e11fd404",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d2e9792095530a37",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "故事/谍影三人行.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 谍影三人行"
+            }
+          },
+          {
+            "id": "4c6e360e09b75513",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b5c48ce667faccbc",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f872c34170294e7d",
+  "lastOpenFiles": [
+    "世界观/伟思德维亚/第二十九区.md",
+    "世界观/伟思德维亚.md",
+    "世界观/莫尔兰.md",
+    "世界观/范顿.md",
+    "角色/珠宝.md",
+    "base.base",
+    "更新日志.md",
+    "角色/index.md",
+    "角色/矢车菊.md",
+    "角色/冠冕.md",
+    "角色/象牙.md",
+    "角色/战车.md",
+    "角色/千里马.md",
+    "角色/星火.md",
+    "index.md",
+    "角色/万里晴.md",
+    "角色/白鹅.md",
+    "故事/保镖真人秀.md",
+    "故事/招运绑架案.md",
+    "角色/招运.md",
+    "故事/毕业典礼.md",
+    "角色/冬青.md",
+    "角色/云雀.md",
+    "角色/午夜阳.md",
+    "角色/太平.md",
+    "角色/闪闪.md",
+    "角色/南瓜.md",
+    "角色.base",
+    "角色/edit.py"
+  ]
+}

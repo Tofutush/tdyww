@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "国籍": "text",
+    "生日": "date",
+    "忌日": "date"
+  }
+}

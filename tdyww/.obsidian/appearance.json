@@ -1,0 +1,12 @@
+{
+  "interfaceFontFamily": "DIN Round Pro,霞鹜文楷",
+  "textFontFamily": "霞鹜文楷,Noto Sans Arabic",
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "folder tree",
+    "line height",
+    "word count"
+  ],
+  "accentColor": "#2c93e2",
+  "showRibbon": false
+}
