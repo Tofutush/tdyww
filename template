@@ -22,22 +22,20 @@
 		<h1>铁打洋娃娃</h1>
 		<nav>
 			<a href="/tdyww/">主页</a>
-			<a href="角色">角色</a>
-			<a href="故事">故事</a>
-			<a href="世界观">世界观</a>
-			<a href="更新日志">更新日志</a>
+			<a href="角色.html">角色</a>
+			<a href="故事.html">故事</a>
+			<a href="世界观.html">世界观</a>
+			<a href="更新日志.html">更新日志</a>
 		</nav>
 	</header>
 	<main>
-		<section class="toc">
-			<button id="toc-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-table-of-contents-icon lucide-table-of-contents">
-					<path d="M16 5H3" />
-					<path d="M16 12H3" />
-					<path d="M16 19H3" />
-					<path d="M21 5h.01" />
-					<path d="M21 12h.01" />
-					<path d="M21 19h.01" />
-				</svg></button>
+		<section id="toc">
+			<input type="checkbox" id="toc-toggle" />
+			<label for="toc-toggle">目录</label>
+			<section id="toc-content">
+				<ul>
+				</ul>
+			</section>
 		</section>
 	</main>
 	<footer>

@@ -132,8 +132,6 @@ footer {
 	flex-direction: column-reverse;
 	align-items: flex-end;
 	gap: 1em;
-	height: 80%;
-	width: 24em;
 	max-width: 100%;
 	padding: 2em 1em;
 
@@ -160,6 +158,9 @@ footer {
 		width: 100%;
 		overflow-y: auto;
 		display: none;
+		max-height: 70%;
+		width: 24em;
+		max-width: 100%;
 	}
 
 	#toc-toggle:checked~label {
@@ -169,4 +170,9 @@ footer {
 	#toc-toggle:checked~#toc-content {
 		display: block;
 	}
+}
+
+h2 .en {
+	font-size: var(--font-size-h3);
+	opacity: .7;
 }
