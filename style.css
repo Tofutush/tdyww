@@ -8,6 +8,11 @@
 	src: local(霞鹜漫黑), url(/tdyww/fonts/LXGWMarkerGothic-Regular.ttf);
 }
 
+@font-face {
+	font-family: josefin;
+	src: local(Josefin Sans), url(/tdyww/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
 :root {
 	--font-size: clamp(1rem, 0.8929rem + 0.5357vw, 1.375rem);
 	--font-size-h1: calc(var(--font-size) * 1.8);
@@ -49,7 +54,7 @@ body {
 	background-color: var(--bg);
 	color: var(--text);
 	font-size: var(--font-size);
-	font-family: lxgw;
+	font-family: josefin, lxgw;
 	line-height: 2;
 }
 
@@ -59,7 +64,7 @@ h3,
 h4 {
 	color: var(--text);
 	line-height: 2;
-	font-family: lxgw-marker;
+	font-family: josefin, lxgw-marker;
 	margin-bottom: .5em;
 	margin-top: 1em;
 	border-bottom: .2em solid;
