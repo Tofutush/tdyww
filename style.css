@@ -106,6 +106,18 @@ main {
 
 	img {
 		max-width: 100%;
+
+		&.thumb {
+			display: inline;
+			height: 1.2em;
+			vertical-align: center;
+		}
+
+		&.float {
+			float: right;
+			max-width: 30%;
+			margin: 0 0 1em 1em;
+		}
 	}
 }
 
